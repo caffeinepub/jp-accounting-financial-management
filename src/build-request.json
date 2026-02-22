@@ -1,0 +1,232 @@
+{
+  "kind": "build_request",
+  "title": "Rebrand site to JP Global Accounting with Deep Navy Blue and Gold color scheme",
+  "projectName": "JP Global Accounting",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update site-wide color scheme from current black (#0A0A0A) and gold (#D4AF37) to Deep Navy Blue (#0F172A) as primary color and Gold (#D4AF37) as accent color, maintaining clean white background throughout",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Use a Deep Navy Blue (#0F172A) and Gold (#D4AF37) color scheme",
+          "Clean white background"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Primary color changed from black to Deep Navy Blue (#0F172A) in tailwind.config.js and index.css",
+        "Gold accent (#D4AF37) remains unchanged",
+        "All components using black backgrounds updated to navy blue",
+        "Navigation, footer, and hero sections reflect new navy blue primary color",
+        "White background maintained for main content areas"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Update Home page hero section headline to '15+ Years of International Accounting & Tax Expertise' and subheading to 'Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Headline: \"15+ Years of International Accounting & Tax Expertise\"",
+          "Subheading: \"Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero headline displays '15+ Years of International Accounting & Tax Expertise'",
+        "Hero subheading displays 'Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses'",
+        "Text styling remains premium and professional"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Change hero section call-to-action button text from 'Request Free Consultation' to 'Get Free Consultation' with strong gold styling",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Strong gold call-to-action button: \"Get Free Consultation\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "CTA button displays 'Get Free Consultation'",
+        "Button uses gold background (#D4AF37)",
+        "Button maintains high visibility and premium appearance"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Update Services page to display exactly 6 service blocks in the following order: Bookkeeping Services, Financial Reporting, Taxation Support (US Sales Tax, UK VAT, AUS BAS), Payroll Processing, QuickBooks & Xero, and Bank Reconciliation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Services Section (6 service blocks): • Bookkeeping Services • Financial Reporting • Taxation Support (US Sales Tax, UK VAT, AUS BAS) • Payroll Processing • QuickBooks & Xero • Bank Reconciliation"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services page displays exactly 6 distinct service blocks",
+        "Each service block contains the exact title from the requirements",
+        "Taxation Support includes descriptive text mentioning US Sales Tax, UK VAT, and AUS BAS",
+        "Services are presented in a clean grid layout with consistent styling",
+        "All existing bookkeeping and taxation services sections are consolidated into these 6 blocks"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Add About section to Home page describing JP Global Accounting as an experienced international accounting partner helping businesses stay compliant and financially organized",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "About Section: Describe the firm as an experienced international accounting partner helping businesses stay compliant and financially organized."
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section appears on Home page after hero section",
+        "Content describes JP Global Accounting as experienced international accounting partner",
+        "Text emphasizes compliance and financial organization",
+        "Section maintains premium corporate styling consistent with site theme"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Update Why Choose Us section content to explicitly highlight: 15+ years experience, international compliance knowledge, data confidentiality, accuracy, and global remote support",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Highlight 15+ years experience, international compliance knowledge, data confidentiality, accuracy, and global remote support"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Why Choose Us section contains all 5 key points from requirements",
+        "Content specifically mentions '15+ years experience'",
+        "International compliance knowledge is highlighted",
+        "Data confidentiality is explicitly stated",
+        "Accuracy is featured as a key differentiator",
+        "Global remote support is included"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Update Mission & Vision page to use professional corporate tone aligned with international accounting consulting firm positioning",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Mission & Vision Section: Professional and corporate tone"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Mission statement uses formal, professional language",
+        "Vision statement reflects corporate consulting firm positioning",
+        "Both statements align with international accounting expertise",
+        "Tone is trustworthy and authoritative"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Update Contact page to display email jpfinance6419@gmail.com and WhatsApp number +91 9081710470 with strong call-to-action buttons",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Email: jpfinance6419@gmail.com",
+          "WhatsApp: +91 9081710470",
+          "Include strong call-to-action buttons"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact page displays email address jpfinance6419@gmail.com",
+        "Contact page displays WhatsApp number +91 9081710470",
+        "Email and WhatsApp have prominent CTA buttons in gold",
+        "Contact methods are clearly visible and easily accessible"
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "text": "Update company branding throughout site from generic 'JP Accounting' to 'JP Global Accounting' in all navigation, headers, footers, and page content",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "my company named \"JP Global Accounting\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation displays 'JP Global Accounting'",
+        "Footer displays 'JP Global Accounting'",
+        "All page headings and content use 'JP Global Accounting'",
+        "Site title in HTML uses 'JP Global Accounting'",
+        "No references to old 'JP Accounting' branding remain"
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "text": "Enhance overall layout with stronger spacing, more structured sections, and minimal elegant design principles to achieve premium corporate consulting appearance",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Strong spacing and structured sections",
+          "Minimal and elegant design",
+          "premium corporate consulting look"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Increased whitespace between major sections",
+        "Consistent padding and margin patterns across all pages",
+        "Clean section dividers or subtle separations",
+        "Minimal design with reduced visual clutter",
+        "Layout appears structured and organized like corporate consulting site"
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain all existing pages: Home, About Us, Services, Mission & Vision, Contact",
+    "Preserve immutable frontend paths: useInternetIdentity hooks, useActor.ts, main.tsx, and src/components/ui",
+    "Keep React, Tailwind CSS, and React Query as core frontend stack",
+    "Use single-actor Motoko backend architecture",
+    "Maintain responsive design for mobile and desktop"
+  ],
+  "nonGoals": [
+    "Adding blog section or additional pages beyond existing structure",
+    "Implementing backend functionality or data persistence",
+    "Creating authentication or user login features",
+    "Adding real-time chat or communication features",
+    "Integrating third-party APIs or services"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional corporate finance office background with modern workspace, suitable for hero section banner (hero-finance.dim_1920x800.png)",
+      "Premium JP Global Accounting logo with navy blue and gold color scheme, minimal design (logo-jpglobal.dim_200x80.png)",
+      "Elegant accounting services illustration showing financial documents and calculators in navy and gold tones (services-bg.dim_1200x600.png)",
+      "Professional international business handshake or global collaboration image for about section (about-global.dim_1200x600.png)",
+      "Modern office desk with financial reports and laptop for mission/vision section background (mission-vision-bg.dim_1200x600.png)"
+    ],
+    "edits": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting implemented changes including color scheme updates (Deep Navy Blue and Gold), hero section text changes, services page restructuring, and new About section additions.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing the JP Global Accounting website structure, components, pages, and styling with Deep Navy Blue and Gold theme.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining CSS custom properties for light and dark themes, including Deep Navy Blue and Gold color variables.",
+  "frontend/index.html": "HTML entry point with SEO-optimized title and meta description for JP Global Accounting's international bookkeeping and tax services.",
+  "frontend/src/App.tsx": "Main application component using TanStack Router to define routes (home, about, services, mission-vision, contact) with shared Layout component containing Navigation and Footer.",
+  "frontend/src/components/Footer.tsx": "Footer component with Deep Navy Blue background, JP Global Accounting branding, SEO text for international services, copyright notice, and Caffeine.ai attribution with heart icon.",
+  "frontend/src/components/Navigation.tsx": "Sticky navigation header with Deep Navy Blue background, JP Global Accounting logo, responsive mobile menu, and gold-accented active link states for all main routes.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section displaying three 5-star client reviews from US, UK, and Australia clients in a responsive grid with white cards on gray background.",
+  "frontend/src/components/WhyChooseUs.tsx": "Section showcasing five key differentiators (15+ years experience, international compliance, data confidentiality, accuracy, global support) with icon cards and global connectivity image.",
+  "frontend/src/hooks/useActor.ts": "React hook managing backend actor creation with Internet Identity authentication, using TanStack Query for caching and automatic query invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React hook and context provider for Internet Identity authentication on ICP, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom design tokens for a premium navy blue and gold color scheme, including typography (Playfair Display and Inter fonts), dark mode support, and utility classes for section spacing.",
+  "frontend/src/main.tsx": "Application entry point that renders the root component with React Query and Internet Identity providers wrapping the main App component.",
+  "frontend/src/pages/AboutUs.tsx": "About page component showcasing JP Global Accounting's 15+ years of experience, core values (Accuracy, Compliance, Confidentiality, Excellence), and international accounting expertise with hero section and value cards.",
+  "frontend/src/pages/Contact.tsx": "Contact page with email and WhatsApp contact methods, plus a form submission interface using shadcn/ui components and toast notifications for user feedback.",
+  "frontend/src/pages/Home.tsx": "Homepage featuring a hero section with call-to-action, service highlights for US/UK/Australia compliance, and sections for company introduction with WhyChooseUs and Testimonials components.",
+  "frontend/src/pages/MissionVision.tsx": "React component rendering the Mission & Vision page with hero section, mission statement with Target icon, and vision statement with Eye icon, featuring navy/gold color scheme and corporate imagery.",
+  "frontend/src/pages/Services.tsx": "React component displaying the Services page with a grid of six accounting services (bookkeeping, financial reporting, taxation, payroll, QuickBooks/Xero, bank reconciliation) and a software expertise section.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration defining custom color palette (navy, gold, oklch-based theme colors), typography fonts (Playfair Display, Inter), premium shadow effects, and animation keyframes for the accounting website.",
+  "project_state.json": "Project metadata tracking the single-page international accounting website structure, architectural decisions (navy/gold color scheme, responsive layout), image requirements, and implemented features for JP Global Accounting targeting US/UK/Australian businesses."
+}

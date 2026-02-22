@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining all routes (home, about, services, mission-vision, contact) with a shared layout containing navigation and footer.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with JP Global Accounting branding, new logo, Deep Navy Blue background, and gold accent colors for active states.",
+  "frontend/src/components/Footer.tsx": "Footer component with JP Global Accounting branding, Deep Navy Blue background, company information, copyright notice, and Caffeine.ai attribution.",
+  "frontend/src/components/WhyChooseUs.tsx": "Section showcasing five key differentiators (15+ years experience, international compliance, data confidentiality, accuracy, global remote support) with clean white background and premium styling.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section displaying three 5-star client reviews from US, UK, and Australia with clean white cards on gray background.",
+  "frontend/src/pages/Home.tsx": "Home page with Deep Navy Blue hero section featuring updated headline \"15+ Years of International Accounting & Tax Expertise\", subheading, \"Get Free Consultation\" CTA button, About section describing JP Global Accounting, WhyChooseUs and Testimonials sections, all with premium spacing and clean white backgrounds.",
+  "frontend/src/pages/AboutUs.tsx": "About Us page highlighting JP Global Accounting's 15+ years experience, core values, and international accounting standards expertise with clean white background and structured sections.",
+  "frontend/src/pages/Services.tsx": "Services page displaying exactly 6 service blocks (Bookkeeping Services, Financial Reporting, Taxation Support with US Sales Tax/UK VAT/AUS BAS, Payroll Processing, QuickBooks & Xero, Bank Reconciliation) in clean grid layout with white background and premium spacing.",
+  "frontend/src/pages/MissionVision.tsx": "Mission & Vision page with professional corporate tone, formal language reflecting international accounting consulting firm positioning, Deep Navy Blue hero section, and premium white content areas.",
+  "frontend/src/pages/Contact.tsx": "Contact page displaying email jpfinance6419@gmail.com and WhatsApp +91 9081710470 with prominent gold CTA buttons, contact form, and business hours in clean white layout with premium spacing.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining Deep Navy Blue (#0F172A) and Gold (#D4AF37) premium theme, custom utility classes for navy and gold colors, section spacing utilities, and Playfair Display serif with Inter sans-serif fonts.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Deep Navy Blue and Gold color palette, custom shadow-premium utility, Playfair Display and Inter font families, and extended theme for premium corporate aesthetic.",
+  "frontend/index.html": "HTML entry point with updated title \"JP Global Accounting - International Bookkeeping & Tax Services\" and meta description."
+}

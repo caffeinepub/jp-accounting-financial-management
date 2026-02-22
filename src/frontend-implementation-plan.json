@@ -1,0 +1,261 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Rebrand site to JP Global Accounting with Deep Navy Blue and Gold color scheme",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Update site-wide color scheme from black (#0A0A0A) to Deep Navy Blue (#0F172A) as primary color, maintaining gold (#D4AF37) accent and white backgrounds",
+      "acceptanceCriteria": [
+        "Primary color changed from black to Deep Navy Blue (#0F172A) in tailwind.config.js and index.css",
+        "Gold accent (#D4AF37) remains unchanged",
+        "All components using black backgrounds updated to navy blue",
+        "Navigation, footer, and hero sections reflect new navy blue primary color",
+        "White background maintained for main content areas"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Update primary color from black (#0A0A0A) to Deep Navy Blue (#0F172A) in the custom color palette. Verify the component's usage instructions before implementing. Maintain gold (#D4AF37) accent color configuration."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update CSS custom properties and Tailwind directives to use Deep Navy Blue (#0F172A) as the primary color instead of black. Update OKLCH color values for theme consistency. Maintain white background and gold accent definitions."
+        },
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Update background colors from black to Deep Navy Blue (#0F172A). Ensure header uses bg-[#0F172A] or equivalent Tailwind class for navy blue background."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update footer background color from black to Deep Navy Blue (#0F172A). Replace any black background classes with navy blue equivalents."
+        },
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update hero section background from black to Deep Navy Blue (#0F172A). Update any section backgrounds currently using black to navy blue while maintaining white backgrounds for main content areas."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Update Home page hero section headline to '15+ Years of International Accounting & Tax Expertise' and subheading to 'Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses'",
+      "acceptanceCriteria": [
+        "Hero headline displays '15+ Years of International Accounting & Tax Expertise'",
+        "Hero subheading displays 'Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses'",
+        "Text styling remains premium and professional"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update hero section headline to '15+ Years of International Accounting & Tax Expertise' and subheading to 'Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses'. Maintain existing typography styling for premium appearance."
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Change hero section CTA button text from 'Request Free Consultation' to 'Get Free Consultation' with strong gold styling",
+      "acceptanceCriteria": [
+        "CTA button displays 'Get Free Consultation'",
+        "Button uses gold background (#D4AF37)",
+        "Button maintains high visibility and premium appearance"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update call-to-action button text from 'Request Free Consultation' to 'Get Free Consultation'. Ensure button uses strong gold background (#D4AF37) with high contrast text for visibility."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Update Services page to display exactly 6 service blocks in specified order: Bookkeeping Services, Financial Reporting, Taxation Support (US Sales Tax, UK VAT, AUS BAS), Payroll Processing, QuickBooks & Xero, and Bank Reconciliation",
+      "acceptanceCriteria": [
+        "Services page displays exactly 6 distinct service blocks",
+        "Each service block contains the exact title from the requirements",
+        "Taxation Support includes descriptive text mentioning US Sales Tax, UK VAT, and AUS BAS",
+        "Services are presented in a clean grid layout with consistent styling",
+        "All existing bookkeeping and taxation services sections are consolidated into these 6 blocks"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Services.tsx",
+          "operation": "modify",
+          "description": "Consolidate existing Bookkeeping Services and Taxation Services sections into exactly 6 service blocks with the specified titles and order. Ensure Taxation Support includes descriptive text mentioning US Sales Tax, UK VAT, and AUS BAS. Maintain grid layout and consistent styling across all service blocks."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Add About section to Home page describing JP Global Accounting as an experienced international accounting partner helping businesses stay compliant and financially organized",
+      "acceptanceCriteria": [
+        "About section appears on Home page after hero section",
+        "Content describes JP Global Accounting as experienced international accounting partner",
+        "Text emphasizes compliance and financial organization",
+        "Section maintains premium corporate styling consistent with site theme"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add About section after hero section describing JP Global Accounting as an experienced international accounting partner helping businesses stay compliant and financially organized. Use premium corporate styling consistent with Deep Navy Blue and Gold theme. Reference generated image at frontend/public/assets/generated/about-global.dim_1200x600.png if appropriate for visual enhancement."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Update Why Choose Us section content to explicitly highlight: 15+ years experience, international compliance knowledge, data confidentiality, accuracy, and global remote support",
+      "acceptanceCriteria": [
+        "Why Choose Us section contains all 5 key points from requirements",
+        "Content specifically mentions '15+ years experience'",
+        "International compliance knowledge is highlighted",
+        "Data confidentiality is explicitly stated",
+        "Accuracy is featured as a key differentiator",
+        "Global remote support is included"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhyChooseUs.tsx",
+          "operation": "modify",
+          "description": "Update content to explicitly highlight all 5 key differentiators: 15+ years experience, international compliance knowledge, data confidentiality, accuracy, and global remote support. Ensure each point is clearly stated and prominently displayed. Reference generated image at frontend/public/assets/generated/why-choose-global.dim_800x600.png for visual support."
+        }
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "summary": "Update Mission & Vision page to use professional corporate tone aligned with international accounting consulting firm positioning",
+      "acceptanceCriteria": [
+        "Mission statement uses formal, professional language",
+        "Vision statement reflects corporate consulting firm positioning",
+        "Both statements align with international accounting expertise",
+        "Tone is trustworthy and authoritative"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/MissionVision.tsx",
+          "operation": "modify",
+          "description": "Revise mission and vision statements to use professional corporate tone aligned with international accounting consulting firm positioning. Ensure language is formal, trustworthy, and authoritative. Reference generated image at frontend/public/assets/generated/mission-vision-bg.dim_1200x600.png for section background."
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Update Contact page to display email jpfinance6419@gmail.com and WhatsApp number +91 9081710470 with strong call-to-action buttons",
+      "acceptanceCriteria": [
+        "Contact page displays email address jpfinance6419@gmail.com",
+        "Contact page displays WhatsApp number +91 9081710470",
+        "Email and WhatsApp have prominent CTA buttons in gold",
+        "Contact methods are clearly visible and easily accessible"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Update contact details to display email jpfinance6419@gmail.com and WhatsApp number +91 9081710470. Add prominent gold CTA buttons for both email and WhatsApp contact methods. Ensure contact information is clearly visible and easily accessible."
+        }
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "summary": "Update company branding throughout site from generic 'JP Accounting' to 'JP Global Accounting' in all navigation, headers, footers, and page content",
+      "acceptanceCriteria": [
+        "Navigation displays 'JP Global Accounting'",
+        "Footer displays 'JP Global Accounting'",
+        "All page headings and content use 'JP Global Accounting'",
+        "Site title in HTML uses 'JP Global Accounting'",
+        "No references to old 'JP Accounting' branding remain"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update page title to 'JP Global Accounting' in the <title> tag and any meta tags referencing the company name."
+        },
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Update company name from 'JP Accounting' to 'JP Global Accounting' in the navigation header. Reference generated logo at frontend/public/assets/generated/logo-jpglobal.dim_200x80.png to replace existing logo."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update company branding from 'JP Accounting' to 'JP Global Accounting' throughout footer content including copyright notice and company references."
+        },
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update all references from 'JP Accounting' to 'JP Global Accounting' in page content including hero section and any company mentions. Reference generated hero image at frontend/public/assets/generated/hero-finance.dim_1920x800.png for hero section background."
+        },
+        {
+          "path": "frontend/src/pages/AboutUs.tsx",
+          "operation": "modify",
+          "description": "Update company name from 'JP Accounting' to 'JP Global Accounting' throughout About Us page content."
+        },
+        {
+          "path": "frontend/src/pages/Services.tsx",
+          "operation": "modify",
+          "description": "Update company name from 'JP Accounting' to 'JP Global Accounting' in Services page content. Reference generated services image at frontend/public/assets/generated/services-bg.dim_1200x600.png for visual enhancement."
+        },
+        {
+          "path": "frontend/src/pages/MissionVision.tsx",
+          "operation": "modify",
+          "description": "Update company name from 'JP Accounting' to 'JP Global Accounting' in mission and vision statements."
+        },
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Update company name from 'JP Accounting' to 'JP Global Accounting' in Contact page headings and content."
+        }
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "summary": "Enhance overall layout with stronger spacing, more structured sections, and minimal elegant design principles to achieve premium corporate consulting appearance",
+      "acceptanceCriteria": [
+        "Increased whitespace between major sections",
+        "Consistent padding and margin patterns across all pages",
+        "Clean section dividers or subtle separations",
+        "Minimal design with reduced visual clutter",
+        "Layout appears structured and organized like corporate consulting site"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add global utility classes for consistent section spacing, structured layouts, and minimal elegant design patterns. Define standard spacing tokens for premium corporate appearance."
+        },
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Increase whitespace between sections, add consistent padding patterns, and implement clean section dividers for structured premium appearance. Reduce visual clutter while maintaining all content."
+        },
+        {
+          "path": "frontend/src/pages/AboutUs.tsx",
+          "operation": "modify",
+          "description": "Apply stronger spacing between sections, implement consistent padding and margin patterns, and enhance minimal elegant design for premium corporate consulting appearance."
+        },
+        {
+          "path": "frontend/src/pages/Services.tsx",
+          "operation": "modify",
+          "description": "Increase section spacing, apply consistent padding patterns, and enhance grid layout structure for premium corporate consulting look with minimal elegant design."
+        },
+        {
+          "path": "frontend/src/pages/MissionVision.tsx",
+          "operation": "modify",
+          "description": "Add stronger spacing between mission and vision sections, implement clean section separators, and enhance overall structure for premium appearance."
+        },
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Apply consistent spacing patterns, increase whitespace around contact methods and form, and enhance minimal elegant design for premium corporate appearance."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-site-wide-color-scheme-from-current-black-0a0a0a-and-gold-d4af37-to-deep-navy-blue-0f172a-as-primary-color-and-gold-d4af37-as-accent-color-maintaining-clean-white-background-throughout",
+      "featureTitle": "Update site-wide color scheme from current black (#0A0A0A) and gold (#D4AF37) to Deep Navy Blue (#0F172A) as primary color and Gold (#D4AF37) as accent color, maintaining clean white background throughout",
+      "files": [
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/index.css",
+        "frontend/src/pages/Home.tsx",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-home-page-hero-section-headline-to-15-years-of-international-accounting-tax-expertise-and-subheading-to-trusted-bookkeeping-tax-solutions-for-us-uk-australia-businesses",
+      "featureTitle": "Update Home page hero section headline to '15+ Years of International Accounting & Tax Expertise' and subheading to 'Trusted Bookkeeping & Tax Solutions for US, UK & Australia Businesses'",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-change-hero-section-call-to-action-button-text-from-request-free-consultation-to-get-free-consultation-with-strong-gold-styling",
+      "featureTitle": "Change hero section call-to-action button text from 'Request Free Consultation' to 'Get Free Consultation' with strong gold styling",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-services-page-to-display-exactly-6-service-blocks-in-the-following-order-bookkeeping-services-financial-reporting-taxation-support-us-sales-tax-uk-vat-aus-bas-payroll-processing-quickbooks-xero-and-bank-reconciliation",
+      "featureTitle": "Update Services page to display exactly 6 service blocks in the following order: Bookkeeping Services, Financial Reporting, Taxation Support (US Sales Tax, UK VAT, AUS BAS), Payroll Processing, QuickBooks & Xero, and Bank Reconciliation",
+      "files": [
+        "frontend/src/pages/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-about-section-to-home-page-describing-jp-global-accounting-as-an-experienced-international-accounting-partner-helping-businesses-stay-compliant-and-financially-organized",
+      "featureTitle": "Add About section to Home page describing JP Global Accounting as an experienced international accounting partner helping businesses stay compliant and financially organized",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-why-choose-us-section-content-to-explicitly-highlight-15-years-experience-international-compliance-knowledge-data-confidentiality-accuracy-and-global-remote-support",
+      "featureTitle": "Update Why Choose Us section content to explicitly highlight: 15+ years experience, international compliance knowledge, data confidentiality, accuracy, and global remote support",
+      "files": [
+        "frontend/src/components/WhyChooseUs.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-mission-vision-page-to-use-professional-corporate-tone-aligned-with-international-accounting-consulting-firm-positioning",
+      "featureTitle": "Update Mission & Vision page to use professional corporate tone aligned with international accounting consulting firm positioning",
+      "files": [
+        "frontend/src/pages/MissionVision.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-contact-page-to-display-email-jpfinance6419-gmail-com-and-whatsapp-number-91-9081710470-with-strong-call-to-action-buttons",
+      "featureTitle": "Update Contact page to display email jpfinance6419@gmail.com and WhatsApp number +91 9081710470 with strong call-to-action buttons",
+      "files": [
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-company-branding-throughout-site-from-generic-jp-accounting-to-jp-global-accounting-in-all-navigation-headers-footers-and-page-content",
+      "featureTitle": "Update company branding throughout site from generic 'JP Accounting' to 'JP Global Accounting' in all navigation, headers, footers, and page content",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/pages/AboutUs.tsx",
+        "frontend/src/pages/Contact.tsx",
+        "frontend/src/pages/Home.tsx",
+        "frontend/src/pages/MissionVision.tsx",
+        "frontend/src/pages/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-19"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-enhance-overall-layout-with-stronger-spacing-more-structured-sections-and-minimal-elegant-design-principles-to-achieve-premium-corporate-consulting-appearance",
+      "featureTitle": "Enhance overall layout with stronger spacing, more structured sections, and minimal elegant design principles to achieve premium corporate consulting appearance",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/src/pages/AboutUs.tsx",
+        "frontend/src/pages/Contact.tsx",
+        "frontend/src/pages/Home.tsx",
+        "frontend/src/pages/MissionVision.tsx",
+        "frontend/src/pages/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-20"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
